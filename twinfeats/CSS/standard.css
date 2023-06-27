@@ -106,6 +106,12 @@ article::before {
   background-image: url(../images/www.jpg);
 }
 
+#apps p {
+  text-align: left;
+
+
+}
+
 #apps::before {
   background-image: url(../images/apps.jpg);
 }
