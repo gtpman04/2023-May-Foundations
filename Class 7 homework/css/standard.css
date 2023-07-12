@@ -11,6 +11,13 @@
     "footer-left footer-left footer-right footer-right";
 }
 
+html, body {
+font-family: sans-serif;
+font-size: 3vh;
+color: #303030;
+
+}
+
 .middle { grid-area: middle; 
 }
 
@@ -20,7 +27,7 @@
 .right { grid-area: right;
 }
 
-.header { grid-area: header; 
+.header { grid-area:top 
 }
 
 .footer-left { grid-area: footer-left; 
