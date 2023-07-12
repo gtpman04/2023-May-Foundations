@@ -1,0 +1,30 @@
+.grid-container { 
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #00a000;
+  gap: 0.25px 0.25px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header"
+    "left middle middle right"
+    "footer-left footer-left footer-right footer-right";
+}
+
+.middle { grid-area: middle; 
+}
+
+.left { grid-area: left; 
+}
+
+.right { grid-area: right;
+}
+
+.header { grid-area: header; 
+}
+
+.footer-left { grid-area: footer-left; 
+}
+
+.footer-right { grid-area: footer-right;
+}
