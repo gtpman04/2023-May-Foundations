@@ -9,10 +9,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/standard.css" />
+    <link media="screen and (orientation: portrait)" rel="stylesheet" href="./CSS/mobile.css" />
   </head>
 
   <body>
-    <nav>
+    <a href="#nav"><img id="mobile-nav" src="images/mobilenav" /></a>
+    <nav id="nav">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
@@ -20,17 +22,25 @@
       <a href="#contact">Contact</a>
     </nav>
     <article id="home">
+      <div class="vertical-container">
       <div class="title">TwinFeats</div>
       <div>
         <img class="logo" src="./images/logo.png" alt="" />
+        
       </div>
       <div class="title">Software</div>
       <p class="tagline">Free software for a free world</p>
+      <div id="bonus">
+        <p>TwinFeats Software is twin brother Kent &amp; Kevin Smotherman.</p>
+        <p>&copy; 2019 TwinFeats Software, all rights reserved</p>
+        <p>402.555.5555</p>
+      </div>
+    </div>
     </article>
     <article id="about">
       <h1>About Us</h1>
       <p>
-        Twin brothers Kent & Kevin Smotherman founded TwinFeats Software in 1983
+        Twin brothers Kent &amp Kevin Smotherman founded TwinFeats Software in 1983
         with a simple premise: Free software for a free world. From the
         beginnings on the Commodore 64 today's Android apps, that vision has
         never wavered.
